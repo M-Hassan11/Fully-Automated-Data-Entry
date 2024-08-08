@@ -87,7 +87,7 @@ gender_combobox = Combobox(root, values=['Male', 'Female'], font='arial 14', sta
 gender_combobox.place(x=426, y=190)
 gender_combobox.set('Male')
 
-addressEntry = Text(root, width=37, height=3, bd=2, font=10)
+addressEntry = Text(root, width=34, height=3, bd=2, font=10)
 
 # Add placeholders
 add_placeholder(nameEntry, "Enter Full Name")
